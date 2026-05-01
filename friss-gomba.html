@@ -20,11 +20,13 @@
 <div class="orb orb-3"></div>
 
 <div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
   <a href="termekek.html">Termékek</a>
   <a href="rolunk.html">Rólunk</a>
-  <a href="miert-mi.html">Miért mi?</a>
-  <a href="partnerek.html">Partnerek</a>
-  <a href="kapcsolat.html" class="m-cta">Kapcsolat →</a>
+  <a href="cegtortenet.html">Cégtörténet</a>
+  <a href="fenntarthato-jovo.html">Fenntartható jövő</a>
+  <a href="tarsadalmi-felelossegvallalas.html">Felelősségvállalás</a>
+  <a href="kapcsolat.html" class="m-cta">Kontakt →</a>
 </div>
 
 <nav id="nav">
@@ -36,10 +38,28 @@
     </div>
   </a>
   <ul class="nav-links">
-    <li><a href="termekek.html">Termékek</a></li>
-    <li><a href="rolunk.html">Rólunk</a></li>
-    <li><a href="miert-mi.html">Miért mi?</a></li>
-    <li><a href="partnerek.html">Partnerek</a></li>
+    <li class="has-dropdown">
+      <a href="index.html">Home</a>
+      <ul class="nav-dropdown">
+        <li><a href="rolunk.html">Rólunk</a></li>
+        <li><a href="cegtortenet.html">Cégtörténet</a></li>
+        <li><a href="minosegbiztositas.html">Minőségbiztosítás</a></li>
+        <li><a href="fenntarthato-jovo.html">Fenntartható jövő</a></li>
+        <li><a href="tarsadalmi-felelossegvallalas.html">Társadalmi felelősségvállalás</a></li>
+        <li><a href="karrier.html">Karrier</a></li>
+      </ul>
+    </li>
+    <li class="has-dropdown">
+      <a href="termekek.html">Termékek</a>
+      <ul class="nav-dropdown">
+        <li><a href="gombacsira.html">Gombacsíra</a></li>
+        <li><a href="gombakomposzt.html">Gombakomposzt</a></li>
+        <li><a href="friss-gomba.html">Friss gomba</a></li>
+        <li><a href="gombakonzerv.html">Konzervgomba</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Galéria</a></li>
+    <li><a href="#">Receptek</a></li>
   </ul>
   <div class="nav-right">
     <div class="nav-lang">
@@ -62,9 +82,9 @@
       <span class="breadcrumb-sep">/</span>
       <span class="breadcrumb-current">Friss gomba</span>
     </div>
-    <h1>Friss <span class="italic">magyar</span><br>gomba,<br><span class="red">minden nap.</span></h1>
+    <h1>Gombakínálatunk –<br><span class="italic">frissen</span><br><span class="red">minden nap.</span></h1>
     <p class="subhero-lead">
-      Fehér és barna csiperke, laskagomba, portobello, shiitake és shimeji – 45.000 m²-en termesztve, szedés után 1 órán belül vákuumhűtve, saját hűtős flottával szállítva.
+      A fehér és barna csiperke mellett egyedülállóan széles egzotikus gomba szortimenttel, kiváló minőségben és különböző kiszerelésekben kínáljuk termékeinket. A minőséget garantálja, hogy szedés után legfeljebb egy órán belül befejezzük a termékek hűtését, majd saját gépjárműflottánkkal végezzük a kiszállítást.
     </p>
     <div class="subhero-actions">
       <a href="#fajtak" class="btn-primary">
@@ -134,8 +154,8 @@
         <span class="variant-overlay-tag">⭐ Legkelendőbb</span>
       </div>
       <div class="variant-body">
-        <div class="variant-name">Fehér csiperkegomba</div>
-        <p class="variant-desc">A klasszikus, legismertebb gombafajta. Kellemes ízvilág, univerzális felhasználás – nyersen, pörköltben, levesben, pizzán egyaránt.</p>
+        <div class="variant-name">Csiperkegomba – a konyha sokoldalú alapanyaga</div>
+        <p class="variant-desc">Fedezd fel a prémium minőségű csiperkegombát (Agaricus bisporus), amely minden fogást különlegessé tesz! Gondosan válogatott, friss gombáink természetes ízükkel és kellemes aromájukkal tökéletes választást jelentenek a mindennapi főzéshez. Legyen szó krémlevesről, szaftos pörköltről vagy grillezett finomságokról, a csiperkegomba mindig megbízható alapanyag. Enyhe íze miatt kiválóan harmonizál húsokkal, zöldségekkel és fűszerekkel egyaránt.</p>
         <div class="variant-specs">
           <span class="variant-spec">Fehér</span>
           <span class="variant-spec">250g / 500g</span>
@@ -146,34 +166,53 @@
       </div>
     </div>
 
-    <!-- BARNA CSIPERKE -->
-    <div class="variant-card reveal reveal-d1">
+    <!-- PORTOBELLO -->
+    <div class="variant-card reveal reveal-d1" id="portobello">
       <div class="variant-img-wrap">
-        <img src="assets/img/csiperke.jpg" alt="Barna csiperke" style="filter:sepia(.3) brightness(.88)">
-        <span class="variant-overlay-tag">🌿 Prémium</span>
+        <img src="assets/img/porto.jpg" alt="Portobello">
+        <span class="variant-overlay-tag">🍽️ Grillezés királya</span>
       </div>
       <div class="variant-body">
-        <div class="variant-name">Barna csiperkegomba</div>
-        <p class="variant-desc">A fehér csiperke érettebb, intenzívebb ízű változata. Határozottabb aroma, feszesebb textúra – kedvelt alapanyag HoReCa konyhákban.</p>
+        <div class="variant-name">Portobello gomba – a grillezés királya</div>
+        <p class="variant-desc">Fedezd fel a különleges ízvilágú portobello gombát, amely gazdag, húsos állagával és intenzív aromájával tökéletes választás minden konyhába! A gondosan válogatott, nagy kalapú gombák ideálisak grillezéshez, sütéshez vagy akár húsmentes fogások alapjaként. Természetesen laktató, mégis könnyed alternatíva – egy falat, és garantáltan új kedvenc lesz!</p>
         <div class="variant-specs">
-          <span class="variant-spec">Barna</span>
+          <span class="variant-spec">Nagy kalap</span>
           <span class="variant-spec">250g / 500g</span>
-          <span class="variant-spec">1kg / 3kg</span>
+          <span class="variant-spec">HoReCa</span>
           <span class="variant-spec red">Bulk</span>
         </div>
         <a href="kapcsolat.html" class="variant-cta">Érdeklődés →</a>
       </div>
     </div>
 
+    <!-- BIO CSIPERKE -->
+    <div class="variant-card reveal reveal-d2">
+      <div class="variant-img-wrap">
+        <img src="assets/img/csiperke.jpg" alt="Bio csiperkegomba" style="filter:hue-rotate(5deg) saturate(1.1)">
+        <span class="variant-overlay-tag">🌿 Bio</span>
+      </div>
+      <div class="variant-body">
+        <div class="variant-name">Bio csiperkegomba</div>
+        <p class="variant-desc">Biokontroll tanúsítvánnyal rendelkező, organikus termesztésből származó csiperkegomba. Leírás hamarosan.</p>
+        <div class="variant-specs">
+          <span class="variant-spec">Biokontroll</span>
+          <span class="variant-spec">250g / 500g</span>
+          <span class="variant-spec">HoReCa</span>
+          <span class="variant-spec red">Export</span>
+        </div>
+        <a href="kapcsolat.html" class="variant-cta">Érdeklődés →</a>
+      </div>
+    </div>
+
     <!-- LASKA -->
-    <div class="variant-card reveal reveal-d2" id="laska">
+    <div class="variant-card reveal" id="laska">
       <div class="variant-img-wrap">
         <img src="assets/img/laska.jpg" alt="Laskagomba">
         <span class="variant-overlay-tag">🌿 Klasszikus</span>
       </div>
       <div class="variant-body">
-        <div class="variant-name">Laskagomba</div>
-        <p class="variant-desc">Selymes állag, enyhén diós íz. Sokoldalúan felhasználható – sült, párolt, levesbe vagy rizottóhoz egyaránt kiváló.</p>
+        <div class="variant-name">Laskagomba – könnyed, mégis karakteres választás</div>
+        <p class="variant-desc">Fedezd fel a friss laskagomba (Pleurotus ostreatus) különleges ízvilágát! Finom, enyhén diós aromája és puha, mégis rugalmas állaga tökéletes alapanyaggá teszi a mindennapi és kreatív ételekhez egyaránt. Gyorsan elkészíthető, kiváló húshelyettesítő, ideális pirítva, grillezve vagy rántva is.</p>
         <div class="variant-specs">
           <span class="variant-spec">Friss</span>
           <span class="variant-spec">250g / 500g</span>
@@ -185,14 +224,14 @@
     </div>
 
     <!-- SHIITAKE -->
-    <div class="variant-card reveal" id="shiitake">
+    <div class="variant-card reveal reveal-d1" id="shiitake">
       <div class="variant-img-wrap">
         <img src="assets/img/shiita.jpg" alt="Shiitake">
         <span class="variant-overlay-tag red">🎌 Prémium</span>
       </div>
       <div class="variant-body">
-        <div class="variant-name">Shiitake</div>
-        <p class="variant-desc">Gazdag umami íz, a japán konyha alapanyaga. Egészségvédő hatásairól ismert, növekvő kereslettel hazánkban és külföldön egyaránt.</p>
+        <div class="variant-name">Shiitake gomba – az ázsiai konyha ízbombája</div>
+        <p class="variant-desc">Fedezd fel a shiitake gomba (Lentinula edodes) gazdag, umamiban bővelkedő ízvilágát! Intenzív aromája és húsos állaga különleges mélységet ad minden ételnek – legyen szó wokban pirított fogásokról, levesekről vagy szószokról. Prémium minőségű alapanyag, amely egyetlen lépésben új szintre emeli a főzést.</p>
         <div class="variant-specs">
           <span class="variant-spec">Egzotikus</span>
           <span class="variant-spec">150g / 250g</span>
@@ -203,39 +242,58 @@
       </div>
     </div>
 
-    <!-- PORTOBELLO -->
-    <div class="variant-card reveal reveal-d1" id="portobello">
+    <!-- ÖRDÖGSZEKÉR LASKA -->
+    <div class="variant-card reveal reveal-d2">
       <div class="variant-img-wrap">
-        <img src="assets/img/porto.jpg" alt="Portobello">
-        <span class="variant-overlay-tag">🍽️ HoReCa</span>
+        <img src="assets/img/laska.jpg" alt="Ördögszekér laskagomba" style="filter:sepia(.2)">
+        <span class="variant-overlay-tag red">✨ Különleges</span>
       </div>
       <div class="variant-body">
-        <div class="variant-name">Portobello</div>
-        <p class="variant-desc">A barna csiperke teljesen kinyílt, érett változata. Gazdag, húsos textúra – éttermek és home cook-ok kedvence grillezve, töltve.</p>
+        <div class="variant-name">Ördögszekér laskagomba – a különleges ízek kedvelőinek</div>
+        <p class="variant-desc">Ismerd meg az ördögszekér laskagombát (Pleurotus eryngii), amely vastag húsával és enyhén diós, telt ízével a prémium gombák egyik kiemelkedő képviselője! Egyedi, roppanós állaga és gazdag aromája miatt kiváló választás grillezéshez, pirításhoz vagy akár húshelyettesítő fogásokhoz. Nemcsak látványos, hanem rendkívül sokoldalú is a konyhában.</p>
         <div class="variant-specs">
-          <span class="variant-spec">XL csiperke</span>
-          <span class="variant-spec">250g / 500g</span>
-          <span class="variant-spec">Tálcás</span>
-          <span class="variant-spec red">Bulk</span>
+          <span class="variant-spec">Vastag tönk</span>
+          <span class="variant-spec">HoReCa</span>
+          <span class="variant-spec">Prémium</span>
+          <span class="variant-spec red">Export</span>
         </div>
         <a href="kapcsolat.html" class="variant-cta">Érdeklődés →</a>
       </div>
     </div>
 
     <!-- SHIMEJI -->
-    <div class="variant-card reveal reveal-d2" id="shimeji">
+    <div class="variant-card reveal" id="shimeji">
       <div class="variant-img-wrap">
         <img src="assets/img/shimeji.jpg" alt="Shimeji">
-        <span class="variant-overlay-tag red">✨ Különleges</span>
+        <span class="variant-overlay-tag">✨ Különleges</span>
       </div>
       <div class="variant-body">
-        <div class="variant-name">Shimeji</div>
-        <p class="variant-desc">Különleges megjelenés, csokros elrendezés, ropogós textúra. Ázsiai konyha alapanyaga – woki fogásokhoz, tempurához, levesekhez.</p>
+        <div class="variant-name">Shimeji gomba – apró méret, nagy ízélmény</div>
+        <p class="variant-desc">Fedezd fel a shimeji gomba (Hypsizygus tessellatus) különleges világát! Finom, enyhén diós íze és roppanós állaga tökéletes választássá teszi wokos ételekhez, levesekhez vagy köretekhez. Kis mérete ellenére igazi ízbomba, amely eleganciát és egyedi karaktert visz minden fogásba.</p>
         <div class="variant-specs">
           <span class="variant-spec">Egzotikus</span>
           <span class="variant-spec">150g tálca</span>
           <span class="variant-spec">HoReCa</span>
           <span class="variant-spec red">Export</span>
+        </div>
+        <a href="kapcsolat.html" class="variant-cta">Érdeklődés →</a>
+      </div>
+    </div>
+
+    <!-- RÓKAGOMBA -->
+    <div class="variant-card reveal reveal-d1">
+      <div class="variant-img-wrap">
+        <img src="assets/img/porto.jpg" alt="Rókagomba" style="filter:sepia(.6) saturate(2) hue-rotate(-10deg)">
+        <span class="variant-overlay-tag">🌲 Erdei</span>
+      </div>
+      <div class="variant-body">
+        <div class="variant-name">Rókagomba – az erdei ízek aranya</div>
+        <p class="variant-desc">Fedezd fel a rókagomba (Cantharellus cibarius) különleges, enyhén gyümölcsös aromáját és selymes állagát! Ez a vadon termő gombafaj igazi ínyencség, amely finom, mégis karakteres ízével minden fogást egyedivé tesz. Kiváló pirítva, tejszínes szószokhoz, rizottóhoz vagy egyszerűen vajon megforgatva – a rókagomba a természet tiszta, elegáns ízét hozza el a tányérra.</p>
+        <div class="variant-specs">
+          <span class="variant-spec">Vadon termő</span>
+          <span class="variant-spec">HoReCa</span>
+          <span class="variant-spec">Gourmet</span>
+          <span class="variant-spec red">Prémium</span>
         </div>
         <a href="kapcsolat.html" class="variant-cta">Érdeklődés →</a>
       </div>
